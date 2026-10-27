@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-const API_URL = 'http://api.favorit-parts.ru/hs/hsprice/';
+const API_URL = 'https://api.favorit-parts.ru/hs/hsprice/';
 const API_KEY = 'FAVORIT1-PRICE-3333-4444-123456789012';
 
 export const fetchBrandsByNumber = createAsyncThunk(
